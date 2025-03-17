@@ -1,4 +1,4 @@
-import { fishList } from './fishList.js'
+import { fishList, renderFishToDOM } from './fishList.js'
 // import { tipList } from './tipList.js'
 // import { locationList } from './locationList.js'
 
@@ -22,5 +22,5 @@ const renderFishToDOM = (fishHTML) => {
         console.error('Could not find element with id "fish-list"');
     }
  };
- 
+
  renderFishToDOM(fishHTML);
