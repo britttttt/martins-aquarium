@@ -1,4 +1,4 @@
-import { fishList, renderFishToDOM } from './fishList.js'
+import { fishList } from './fishList.js'
 // import { tipList } from './tipList.js'
 // import { locationList } from './locationList.js'
 
@@ -13,9 +13,8 @@ const locationHTML = locationList();
 
 // Render each HTML string to the correct DOM element
 
-
 const renderFishToDOM = (fishHTML) => {
-    const fishList = document.getElementById('fishList');
+    const fishList = document.getElementById('fish-list');
  
     if (fishList) {
         fishList.innerHTML = fishHTML;
@@ -23,5 +22,5 @@ const renderFishToDOM = (fishHTML) => {
         console.error('Could not find element with id "fish-list"');
     }
  };
-
+ 
  renderFishToDOM(fishHTML);
