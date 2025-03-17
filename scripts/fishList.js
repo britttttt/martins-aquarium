@@ -16,15 +16,15 @@ export const fishList= () => {
         `;
     }
  
-    return ishHTMLf
+    return fishHTML
 };
 
 export const renderFishToDOM = (fishHTML) => {
-    const fishList = document.getElementById('fish-list');
+    const fishList = document.getElementById('fishList');
  
     if (fishList) {
         fishList.innerHTML = fishHTML;
     } else {
-        console.error('Could not find element with id "fish-list"');
+        console.error('Could not find element with id "fishList"');
     }
  };
