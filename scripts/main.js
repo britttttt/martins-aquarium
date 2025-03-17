@@ -5,11 +5,11 @@ import { fishList, renderFishToDOM } from './fishList.js'
 // Generate the fish list
 const fishHTML = fishList();
 
-// Generate the care tips
-const tipHTML = tipList();
+// // Generate the care tips
+// const tipHTML = tipList();
 
-// Generate the location list
-const locationHTML = locationList();
+// // Generate the location list
+// const locationHTML = locationList();
 
 // Render each HTML string to the correct DOM element
 
