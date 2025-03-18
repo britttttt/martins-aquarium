@@ -1,0 +1,38 @@
+
+
+.fish_image {
+    max-width: 400px;
+    border-radius: 8px;
+    }
+
+.fish__details {
+    background-color: blue;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.locations {
+    max-width: 400px;
+    background-color: #6472f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: auto;
+    gap: 20 px;
+}
+
+.country {
+   padding: 20 px; 
+   margin-bottom: 10px;
+   margin-left: -10 px;
+}
+
+.tips {
+    background-color: cadetblue;
+}
+body {
+    background-color:cornflowerblue;
+    font-family: 'Comic-Sans';
+    color: white;
+}
