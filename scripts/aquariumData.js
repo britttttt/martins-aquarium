@@ -3,7 +3,7 @@ export const database = {
         {
             name: "Nemo",
             species: "Clownfish",
-            length: 3,
+            fishLength: 3,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg"
@@ -11,7 +11,7 @@ export const database = {
         {
             name: "Dory",
             species: "Blue Tang",
-            length: 5,
+            fishLength: 5,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/13/Paletten-Doktorfisch_M%C3%BCnster.JPG"
@@ -19,7 +19,7 @@ export const database = {
         {
             name: "Gill",
             species: "Moorish Idol",
-            length: 6,
+            fishLength: 6,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://eshalabs.com/wp-content/uploads/Moorish-idol.jpg"
@@ -27,7 +27,7 @@ export const database = {
         {
             name: "Jacques",
             species: "French Shrimp",
-            length: 2,
+            fishLength: 2,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://www.thespruceeats.com/thmb/I6D_X9ms4xj2EjO9NSOIk5vn_Tw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/156854273-56a32bd93df78cf7727c2714.jpg"
@@ -35,7 +35,7 @@ export const database = {
         {
             name: "Hank",
             species: "Eastern Pacific Red Octopus",
-            length: 24,
+            fishLength: 24,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/O-rubescens.jpg/1200px-O-rubescens.jpg"
@@ -43,7 +43,7 @@ export const database = {
         {
             name: "Bubbles",
             species: "Yellow Tang",
-            length: 4,
+            fishLength: 4,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Zebrasoma_flavescens_Luc_Viatour.jpg"
@@ -51,7 +51,7 @@ export const database = {
         {
             name: "Bruce",
             species: "Great White Shark",
-            length: 55,
+            fishLength: 55,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "https://th-thumbnailer.cdn-si-edu.com/ZpxkbzXa2Q0YRdryXPqRIc6clKk=/fit-in/1200x0/https%3A%2F%2Ftf-cmsv2-smithsonianmag-media.s3.amazonaws.com%2Ffiler%2Fae%2F98%2Fae980f74-fa29-4c42-9aff-eea13c2c1971%2Fgreat_white_shark_south_africa.jpg"
@@ -59,106 +59,106 @@ export const database = {
         {
             name: "Flounder",
             species: "Flounder",
-            length: 6,
+            fishLength: 6,
             location: "Atlantic Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/flounder.jpg"
+            image: "https://images.squarespace-cdn.com/content/v1/5ab3de834eddec92938aef0a/1553278117851-0FIRV5327DCBTI0C8WI7/winter_flounder4_fullsize.jpg"
         },
         {
             name: "Marlin",
             species: "Blue Marlin",
-            length: 12,
+            fishLength: 12,
             location: "Pacific Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/marlin.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Atlantic_blue_marlin.jpg"
         },
         {
             name: "Jaws",
             species: "Great White Shark",
-            length: 20,
+            fishLength: 20,
             location: "Pacific Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/jaws.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg"
         },
         {
             name: "Gil",
             species: "Damselfish",
-            length: 3,
+            fishLength: 3,
             location: "Coral Reefs",
             diet: "Omnivore",
-            image: "https://example.com/images/gil.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/2/24/Caribbean_Cocoa_damselfish.jpg"
         },
         {
             name: "Squirt",
             species: "Sea Turtle",
-            length: 6,
+            fishLength: 6,
             location: "Great Barrier Reef",
             diet: "Herbivore",
-            image: "https://example.com/images/squirt.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/1200px-Chelonia_mydas_is_going_for_the_air_edit.jpg"
         },
         {
             name: "Triton",
             species: "Trout",
-            length: 8,
+            fishLength: 8,
             location: "Freshwater Lakes",
             diet: "Carnivore",
-            image: "https://example.com/images/triton.jpg"
+            image: "https://cdn.pixabay.com/photo/2016/07/17/23/16/brook-trout-1524955_960_720.jpg"
         },
         {
             name: "Sandy",
             species: "Sandfish",
-            length: 4,
+            fishLength: 4,
             location: "Desert Oasis",
             diet: "Omnivore",
-            image: "https://example.com/images/sandy.jpg"
+            image: "https://live.staticflickr.com/8053/8353424260_6fc90bf4c0_b.jpg"
         },
         {
             name: "Ziggy",
             species: "Zebrafish",
-            length: 2,
+            fishLength: 2,
             location: "Freshwater Streams",
             diet: "Omnivore",
-            image: "https://example.com/images/ziggy.jpg"
+            image: "https://live.staticflickr.com/5002/13896905021_775028ccd2_b.jpg"
         },
         {
             name: "Percy",
             species: "Perch",
-            length: 7,
+            fishLength: 7,
             location: "Rivers and Lakes",
             diet: "Carnivore",
-            image: "https://example.com/images/percy.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/0/09/Yellow_Perch_P2270247.jpg"
         },
         {
             name: "Misty",
             species: "Misty Fish",
-            length: 5,
+            fishLength: 5,
             location: "Freshwater",
             diet: "Omnivore",
-            image: "https://example.com/images/misty.jpg"
+            image: "https://safmc.net/wp-content/uploads/2022/04/misty-grouper-NOAA.jpg"
         },
         {
             name: "Finn",
             species: "Swordfish",
-            length: 10,
+            fishLength: 10,
             location: "Atlantic Ocean",
             diet: "Carnivore",
-            image: "https://example.com/images/finn.jpg"
+            image: "https://i.natgeofe.com/n/dbc779c0-1683-457d-9f35-7d72b823fb18/01-swordfish-speed-lube_2x3.jpg"
         },
         {
             name: "Splash",
             species: "Salmon",
-            length: 8,
+            fishLength: 8,
             location: "North Atlantic Ocean",
             diet: "Omnivore",
-            image: "https://example.com/images/splash.jpg"
+            image: "https://live.staticflickr.com/65535/51340024735_e949e88a13_z.jpg"
         },
         {
             name: "Bluey",
             species: "Bluegill",
-            length: 6,
+            fishLength: 6,
             location: "Freshwater Lakes",
             diet: "Omnivore",
-            image: "https://example.com/images/bluey.jpg"
+            image: "https://cdn.britannica.com/31/117531-004-CE1DE68A/Bluegill.jpg"
         }        
       
     ],
@@ -211,6 +211,6 @@ export const database = {
             name: "Great Barrier Reef",
             country: "Australia",
             description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
-         },
-    ],
+         }
+    ]
 }

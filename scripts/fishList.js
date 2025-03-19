@@ -1,16 +1,17 @@
 import { database } from './aquariumData.js';
 
-export const fishList= () => {
+export const fishList = (fishArray) => {
     // Generate an HTML representation of each fish
     let fishHTML = '';
 
-    for (const fish of database.fish) {
+    for (const fish of fishArray) {
         fishHTML += `
             <article class="fish-article">
                 <img src="${fish.image}" alt="${fish.name} image" class="fish_image">
                 <div class="fish__details">
                     <h2 class="fish__name">${fish.name}</h2>
                     <p class="fish__species">${fish.species}</p>
+                    <p class="fish__species">${fish.fishLength}</p>
                 </div>
             </article>
         `;
@@ -18,6 +19,10 @@ export const fishList= () => {
  
     return fishHTML
 };
+
+
+
+
 
 export const renderFishToDOM = (fishHTML) => {
     const fishList = document.getElementById('fish-list');
@@ -28,3 +33,8 @@ export const renderFishToDOM = (fishHTML) => {
         console.error('Could not find element with id "fish-list"');
     }
  };
+
+
+
+
+

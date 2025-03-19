@@ -1,14 +1,19 @@
 
 
 .fish_image {
-    max-width: 400px;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 8px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.045)
     }
 
 .fish__details {
     background-color: blue;
     border-radius: 8px;
-    margin: auto;
+    margin: 50px;
+    padding: auto;
+    text-align: center;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.045)
 }
 
 .locations {
@@ -19,20 +24,39 @@
     overflow: hidden;
     transition: transform 0.3s ease;
     margin: auto;
-    gap: 20 px;
+    gap: 20px;
+    margin-left: 10px;
+    text-justify: 2em;
 }
 
 .country {
    padding: 20 px; 
    margin-bottom: 10px;
-   margin-left: -10 px;
+   margin-left: 10px;
 }
 
 .tips {
     background-color: cadetblue;
+    font-size: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.045)
 }
+
+@keyframes mymove {
+    50% {background-color: #244cb9;}
+  }
+
 body {
     background-color:cornflowerblue;
+    animation: mymove 10s infinite;
     font-family: 'Comic-Sans';
     color: white;
+}
+
+header {
+    text-align: right;
+    background-color: midnightblue;
+    height: 50%;
+    width: 100%;
+   
+   
 }
